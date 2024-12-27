@@ -1,6 +1,6 @@
 {
   "name": "@juunini/sleep",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "juunini",
     "email": "juuni.ni.i@gmail.com"
@@ -25,8 +25,9 @@
   "exports": {
     ".": {
       "import": "./index.mjs",
-      "require": "./index.js",
-      "types": "./index.d.ts"
+      "require": "./index.cjs",
+      "types": "./index.d.ts",
+      "default": "./index.js"
     }
   },
   "license": "MIT"
