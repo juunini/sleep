@@ -1,0 +1,33 @@
+{
+  "name": "@juunini/sleep",
+  "version": "0.0.1",
+  "author": {
+    "name": "juunini",
+    "email": "juuni.ni.i@gmail.com"
+  },
+  "description": "A simple sleep function",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juunini/sleep.git"
+  },
+  "homepage": "https://github.com/juunini/sleep",
+  "keywords": [
+    "sleep",
+    "wait",
+    "delay"
+  ],
+  "private": false,
+
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "license": "MIT"
+}
